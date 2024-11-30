@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domains</title>
+    <link rel="stylesheet" href="dropdown.css"/>
+    <link rel="stylesheet" href="homecss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+<body class = "bgcolor">
+    <h1 style = "margin-bottom:50px; color:#131842; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight:300;" class = "mt-5">Select a <span style="color:#E68369; font-weight:700;">subject</span></h1>
+    <div class="d-flex flex-column justify-content-start">
+            <select id="cDropDown" onchange="cSelectDifficulty()" class="mb-3 styled-select text-center">
+                <option value="" selected>C</option>
+                <option value="instructionsceasy.html">Easy</option>
+                <option value="instructionscmedium.html">Medium</option>
+                <option value="instructionschard.html">Hard</option>
+            </select>
+        <select id="coaDropDown" onchange="coaSelectDifficulty()" class="mb-3 styled-select text-center">
+            <option value="" selected>COA</option>
+            <option value="instcoaeasy.html">Easy</option>
+            <option value="instcoamed.html">Medium</option>
+            <option value="instcoahard.html">Hard</option>
+        </select>
+        <select id="mpmcDropDown" onchange="mpmcSelectDifficulty()" class="mb-3 styled-select text-center">
+            <option value="" selected>MP & MC</option>
+            <option value="instmpmceasy.html">Easy</option>
+            <option value="instmpmcmed.html">Medium</option>
+            <option value="instmpmchard.html">Hard</option>
+        </select>
+    </div>
+    <script src="signupJs.js"></script>
+</body>
+</html>

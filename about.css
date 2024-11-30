@@ -1,0 +1,141 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    background-color: #f9f9f9;
+  }
+
+  .top{
+    border:1px solid #131842;
+    /* border-radius: 2px; */
+    padding:20px;
+    margin:20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+  }
+
+  .top h2{
+    font-size: 30px;
+    color: #131842;
+    /* padding:20px; */
+  }
+
+  .top p{
+    font-size:18px ;
+  }
+
+  .middle{
+    /* display: flex;
+    justify-content:space-between; */
+    border:1px solid #131842;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+  }
+
+  .middle h2{
+    font-size: 30px;
+    color: #131842;
+  }
+
+  .container{
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .container .left p{
+    font-size: 18px;
+  }
+
+   .container .right img{
+    height: 300px;
+    padding-bottom: 20px;
+  } 
+
+.first-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px;
+}
+
+.first-row .vlsi{
+    border: 1px solid #131842;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+
+.first-row .vlsi h3{
+    font-size: 30px;
+    color: #131842;
+}
+
+.first-row .emb{
+    border: 1px solid #131842;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+
+.first-row .emb h3{
+    font-size: 30px;
+    color: #131842;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+
+.second-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px;
+}
+
+.second-row .comm{
+    border: 1px solid #131842;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+
+.second-row .comm h3{
+    font-size: 30px;
+    color: #131842;
+}
+
+.second-row .iot{
+    border: 1px solid #131842;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+
+.second-row .iot h3{
+    font-size: 30px;
+    color: #131842;
+}
+
+p{
+    font-size: 18px;
+}
+
+.btn{
+    text-align: center;
+    color: #131842;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    color: #e68369;
+    letter-spacing: 1px;
+}
